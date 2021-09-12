@@ -1,3 +1,5 @@
+import './style.scss';
+
 const FormInput = ({ id, label, value, handleChange, name, type = "text" }) => {
     return (
         <div className="form__group">

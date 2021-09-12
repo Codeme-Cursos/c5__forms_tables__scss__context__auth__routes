@@ -1,3 +1,5 @@
+import './style.scss';
+
 const Table = ({ headers = [], children }) => {
     return (
         <table className="table">

@@ -1,3 +1,5 @@
+import './style.scss';
+
 const Form = ({ onSubmit = () => console.log('Submiting...'), children, title = 'Formulario' }) => {
 
     const handleSubmit = e => {
@@ -8,7 +10,7 @@ const Form = ({ onSubmit = () => console.log('Submiting...'), children, title = 
     return (
         <form className="form" onSubmit={handleSubmit}>
             <h5>{title}</h5>
-            {children} 
+            {children}
         </form>
     )
 }

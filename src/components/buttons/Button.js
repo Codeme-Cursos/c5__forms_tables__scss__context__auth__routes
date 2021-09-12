@@ -1,3 +1,5 @@
+import './style.scss';
+
 const Button = ({ type = 'button', color, text, onClick }) => {
     return (
         <div className="btn__container">
